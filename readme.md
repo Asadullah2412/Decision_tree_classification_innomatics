@@ -57,7 +57,3 @@ The model was evaluated on a held-out test set to measure generalization perform
 ## Conclusion
 
 This practice project demonstrates that the real strength of Decision Trees lies in **how their growth is controlled**. While Gini and Entropy resulted in comparable performance, tuning `min_samples_leaf` had a significant impact on reducing overfitting and improving generalization. Understanding and tuning such parameters is essential before moving on to more complex ensemble models like Random Forests and Gradient Boosting.
-
----
-
-> **Note:** This project is intended for learning and experimentation purposes, focusing on building intuition rather than optimizing production-level performance.
